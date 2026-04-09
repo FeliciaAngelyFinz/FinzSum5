@@ -1,0 +1,72 @@
+.kotak{
+    max-width: 500px;
+    background: #F3F4F4;
+    padding: 20px;
+    border-radius: 6px;
+    margin: auto;
+    color: black;
+    margin-top: 20px;
+	box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
+	font-family: calibri;
+}
+label{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.kotak2{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    font-weight: bold;
+    white-space: pre-line;
+	box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
+}
+button{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+}
+button:hover{
+    color: black;
+    background-color: white;
+}
+h1{
+    text-align: center;
+    color: grey;
+    font-family: calibri;
+}
+p{
+    color: grey;
+    font-family: arial;
+}
+.pp{
+	text-align: center;
+	color: grey;
+    font-family: arial;
+}
+.lab{
+	font-size: 12px;
+	color: grey;
+	font-family: arial;
+}
+.kotak3{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    font-weight: bold;
+	box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
+}
+input{
+	border-radius: 8px; 
+    padding: 10px; 
+    border: 1px solid grey;
+    outline: none;
+}

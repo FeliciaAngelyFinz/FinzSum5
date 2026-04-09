@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title> Formulir Pendaftaran Siswa </title>
+    <link rel="stylesheet" href="sumfor.css">
+</head>
+<body>
+<div class="kotak">
+    <h1> Formulir Pendaftaran Siswa </h1>
+    <p class="pp"> Isi data dengan lengkap dan benar </p>
+    
+    <label> Nama Lengkap * </label>
+    <input type="text" id="name" placeholder="Masukkan Nama Anda" required>
+	<label class="lab"> Nama sesuai identitas </label>
+    
+    <label> Kelas * </label>
+    <input type="text" id="class" placeholder="Masukkan Kelas Anda" required>
+	<label class="lab"> Kelas saat ini/tujuan </label>
+<div class="kotak3">
+    <p> Pilih Ekstrakurikuler (3 pilihan): </p>
+    <label><input type="checkbox" name="ekstra" value="Basket"> Basket</label><br>
+    <label><input type="checkbox" name="ekstra" value="Futsal"> Futsal</label><br>
+    <label><input type="checkbox" name="ekstra" value="Paduan Suara"> Paduan Suara</label><br>
+	<label class="lab"> Boleh memilih lebih dari satu (opsional) </label>
+</div>
+<div class="kotak3">
+    <p> Pilih Jadwal Belajar (wajib pilih satu): </p>
+    <label><input type="radio" name="jadwal" value="Pagi"> Pagi (07.00 - 12.00)</label><br>
+    <label><input type="radio" name="jadwal" value="Siang"> Siang (12.30 - 17.00)</label><br>
+    <label><input type="radio" name="jadwal" value="Sore"> Sore (17.30 - 20.30)</label><br>
+    <label><input type="radio" name="jadwal" value="Campuran"> Campuran (fleksibel)</label><br>
+	<label class="lab"> Satu pilihan wajib dipilih untuk kelengkapan data</label>
+</div>
+    <br>
+    <button id="daftar"> Daftar Sekarang </button>
+    <button id="reset"> Reset Form </button>
+    
+    <div class="kotak2" id="hasil">
+        Data Anda akan ditampilkan di sini...
+    </div>
+</div>
+
+<script src="sumfor.js"></script>
+</body>
+</html>
